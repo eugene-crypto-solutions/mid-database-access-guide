@@ -110,9 +110,25 @@ See the installation guide below.
 
 [Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
+### Setup AWS Credential
+
+Open the terminal and execute the command below
+
+```sh
+aws configure
+```
+
+Then it will ask you to enter your information.
+
+* AWS Access Key ID: enter the provided access key id.
+* AWS Secret Access Key: enter the provided secret access key.
+* Default region name: enter `ap-east-1`.
+* Default output format: just press enter.
+
 ### Download Example
 
 A command for download follows the syntax below.
+Open the terminal and execute the command.
 
 ```sh
 aws s3 cp <Uri> <LocalPath> [<option>]
